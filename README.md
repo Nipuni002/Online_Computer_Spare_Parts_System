@@ -1,4 +1,4 @@
-# ComputerSP_Parts
+# Online_Computer_Spare_Parts_System
 
 The Online Computer Spare Parts System implements a Return and Refund CRUD operation using Java and OOP principles. It allows customers to create, read, update, and delete return requests for defective or unwanted items.
 
