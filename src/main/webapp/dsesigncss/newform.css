@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    padding: 20px;
+    background: #1a1a1a; /* Set background color to #1a1a1a */
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    background-color: #333;
+    padding: 15px;
+    position: relative; /* Ensures the navbar doesn't overlap */
+}
+
+.container {
+    position: relative;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 100px; /* Adds space below the navbar */
+    border: 1px solid #ffa500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, background-color 0.3s; /* Smooth hover transition */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: orange; 
+}
+.error-message {
+    color: lightblue;
+    display: none;
+}
+input:invalid ~ .error-message {
+    display: block;
+}
+
+
+.popup {
+    width: 300px;
+    background: #1a1a1a;
+    border-radius: 6px;
+    position: absolute;
+    visibility: hidden;
+    transform: scale(0.1); /* Keep the scaling effect */
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    transition: transform 0.4s, visibility 0.4s;
+    z-index: 1000;
+}
+
+.open-popup {
+    visibility: visible;
+    transform: scale(1); /* Scale it up to full size */
+}
+
+.popup img {
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(255, 165, 0, 0.3);
+}
+
+.popup h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.btn:hover {
+     background-color: #ff8c00;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #ffa500;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow:  #ff8c00;
+}
+
+
+
+
