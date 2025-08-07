@@ -4,17 +4,17 @@ A robust Return and Refund Management System for an Online Computer Spare Parts 
 
 🔧 Key Features
 
-✅ Submit return/refund requests for purchased items
+Submit return/refund requests for purchased items
 
-📄 View request status and details
+View request status and details
 
-✏️ Update return information before processing
+Update return information before processing
 
-🗑️ Cancel (delete) return requests
+Cancel (delete) return requests
 
-🔐 Role-based logic for admin and customer interactions
+Role-based logic for admin and customer interactions
 
-📦 Real-time data operations using MySQL backend
+Real-time data operations using MySQL backend
 
 
 
