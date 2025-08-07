@@ -3,6 +3,7 @@
 A robust Return and Refund Management System for an Online Computer Spare Parts Store, developed using Java (OOP principles) and MySQL following the MVC architecture. The system enables customers to efficiently Create, Read, Update, and Delete (CRUD) return and refund requests for defective or unwanted items.
 
 🔧 Key Features
+
 ✅ Submit return/refund requests for purchased items
 
 📄 View request status and details
@@ -30,6 +31,7 @@ Servlets & JSP (for web interface, if included)
 
 
 📁 Project Structure
+
 model – Java classes representing the data layer
 
 controller – Handles business logic and request mapping
@@ -40,6 +42,7 @@ dao – Database access objects for MySQL operations
 
 
 🚀 How to Run
+
 Clone the repository
 
 Import into Eclipse IDE
