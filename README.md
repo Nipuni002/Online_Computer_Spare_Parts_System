@@ -4,43 +4,43 @@ A robust Return and Refund Management System for an Online Computer Spare Parts 
  
 🔧 Key Features
 
-Submit return/refund requests for purchased items
+- Submit return/refund requests for purchased items
 
-View request status and details
+- View request status and details
 
-Update return information before processing
+- Update return information before processing
 
-Cancel (delete) return requests
+- Cancel (delete) return requests
 
-Role-based logic for admin and customer interactions
+- Role-based logic for admin and customer interactions
 
-Real-time data operations using MySQL backend
+- Real-time data operations using MySQL backend
 
 
 
 💡 Technologies Used
 
-Java (OOP-based, MVC layered architecture)
+- Java (OOP-based, MVC layered architecture)
 
-MySQL (Relational Database)
+- MySQL (Relational Database)
 
-JDBC for database connectivity
+- JDBC for database connectivity
 
-Eclipse IDE (development environment)
+- Eclipse IDE (development environment)
 
-Servlets & JSP (for web interface, if included)
+- Servlets & JSP (for web interface, if included)
 
 
 
 📁 Project Structure
 
-model – Java classes representing the data layer
+- model – Java classes representing the data layer
 
-controller – Handles business logic and request mapping
+- controller – Handles business logic and request mapping
 
-view – JSP pages for user interaction (optional)
+- view – JSP pages for user interaction (optional)
 
-dao – Database access objects for MySQL operations
+- dao – Database access objects for MySQL operations
 
 
 
