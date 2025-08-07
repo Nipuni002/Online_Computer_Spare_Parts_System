@@ -17,6 +17,7 @@ A robust Return and Refund Management System for an Online Computer Spare Parts 
 📦 Real-time data operations using MySQL backend
 
 
+
 💡 Technologies Used
 
 Java (OOP-based, MVC layered architecture)
@@ -30,6 +31,7 @@ Eclipse IDE (development environment)
 Servlets & JSP (for web interface, if included)
 
 
+
 📁 Project Structure
 
 model – Java classes representing the data layer
@@ -40,18 +42,6 @@ view – JSP pages for user interaction (optional)
 
 dao – Database access objects for MySQL operations
 
-
-🚀 How to Run
-
-Clone the repository
-
-Import into Eclipse IDE
-
-Set up MySQL database using the provided SQL script
-
-Configure DB credentials in the project
-
-Run the application via the main servlet/controller
 
 
 ![Screenshot (504)](https://github.com/user-attachments/assets/1d632a75-6e92-46ed-af1a-4ca3fc869f32)
